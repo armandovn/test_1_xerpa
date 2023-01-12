@@ -15,6 +15,18 @@ while this structure be respect the operations should work well with N items:
     one(plus(eight()))
 ```
 
+## Run program
+
+```python
+    python main.py
+```
+
+## Run the tests
+
+```python
+    python tests.py
+```
+
 ### It is important to identify that the operations are solve from right to left, the results are always integers and they don't respect the hierarchy for example:
 
 ```python
