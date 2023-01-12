@@ -15,8 +15,7 @@ while this structure be respect the operations should work well with N items:
     one(plus(eight()))
 ```
 
-### It is important to identify that the operations are solve from right to left, 
-### the results are always integers and they don't respect the hierarchy for example:
+### It is important to identify that the operations are solve from right to left, the results are always integers and they don't respect the hierarchy for example:
 
 ```python
   four(times(five(plus(five())))
