@@ -1,3 +1,8 @@
+"""
+Contains function that represents the numbres from 0 to 9.
+Contains four basic arithmetic functions like +, -, * and //
+"""
+
 def zero(x: dict = None) -> int:
     return op(0, x) if x else 0
 
@@ -60,8 +65,11 @@ def divided_by(x: int) -> dict:
 
 
 if __name__ == '__main__':
-    print(four(times(five()))) # imprime 20
-    print(one(plus(eight()))) # imprime 9
-    print(seven(minus(three()))) # imprime 4
-    print(nine(divided_by(three()))) # imprime 3
-    print(three(minus(nine())))
+    print(four(times(five()))) # print 20
+    print(one(plus(eight()))) # print 9
+    print(seven(minus(three()))) # print 4
+    print(nine(divided_by(three()))) # print 3
+    print(three(minus(nine()))) # print -6
+    print(four(times(five(plus(five()))))) # print 60
+    # The big one
+    print(four(times(five(times(four(plus(eight(minus(nine()))))))))) # print 60
